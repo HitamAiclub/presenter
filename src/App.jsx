@@ -38,7 +38,7 @@ const App = () => {
                 <Route path="/" element={<AdminDashboard />} />
                 <Route path="guests" element={<GuestAccess />} />
                 <Route path="presentations" element={<Presentations />} />
-                <Route path="audio" element={<AudioLibrary />} />q
+                <Route path="audio" element={<AudioLibrary />} />
                 <Route path="sessions" element={<ActiveSessions />} />
                 <Route path="timeline/:presentationId" element={<SlideTimelineEditor />} />
                 <Route path="host/:sessionId" element={<LiveControlPanel />} />
